@@ -1,9 +1,9 @@
 # Binodata.EF.Component
 
-### 說明
-* Biniodata  共用資料庫操作函式庫
+### Read me
+* Biniodata  Data Base Common Handle
 
-### 新增資料範例
+###  Add Data Sample
 
 
 ```<C#>
@@ -16,7 +16,7 @@ unitOfWork.Dispose();
 ```
 
 
-### 更新資料範例
+### Update Data Sample
 
 
 ```<C#>
@@ -34,7 +34,7 @@ unitOfWork.Dispose();
 
 
 
-### 查詢資料範例
+### Query Data Sample
 
 
 ```<C#>
