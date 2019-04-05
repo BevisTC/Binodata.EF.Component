@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Binodata.EF.Repo.UnitOfWork
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         /// <summary>
         ///
