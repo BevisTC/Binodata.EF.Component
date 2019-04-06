@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\GenericDataAccess.cs" />
+    <Compile Include="DataAccess\IGenericDataAccess.cs" />
     <Compile Include="EFGenericRepository.cs" />
     <Compile Include="ErrorHandle\UnitOfWorkException.cs" />
     <Compile Include="IGenericRepository.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Binodata.EF.Repo
 {
-   public interface IGenericRepository<T> where T : class
+   public interface IGenericRepository<T> : IDisposable where T : class 
     {
         /// <summary>
         /// 新增資料
